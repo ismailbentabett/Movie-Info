@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import './dummy_data.dart';
-import 'widget/movie_list.dart';
+import '../dummy_data.dart';
+import '.././widget/movie_list.dart';
 
 class MoviesList extends StatefulWidget {
 

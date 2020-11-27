@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import './screen/categories.dart';
-import './screen/movie_list.dart';
+import './screen/movies_list.dart';
 import './screen/movie_details.dart';
 void main() => runApp(MyApp());
 
