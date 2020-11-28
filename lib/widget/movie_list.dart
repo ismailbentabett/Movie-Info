@@ -18,7 +18,6 @@ MovieL(this.movie);
       child: Card(
         child: Container(
                height: 50,
-      color: Colors.amber[100],
           child: Text(movie),
         ),
       ),

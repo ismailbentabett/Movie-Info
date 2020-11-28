@@ -24,10 +24,24 @@ var newmovies = moredata.toList()[0];
         ),
         body:ListView(
   padding: const EdgeInsets.all(8),
+
   
   children:   newmovies.map((data)=>MovieL(data)).toList(),
  
 ),
+
+
+    floatingActionButton: FloatingActionButton(
+      onPressed: () {
+        // Add your onPressed code here!
+      },
+      child: Icon(Icons.add),
+    
+      
+    ),
+          floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+
+
     );
   }
 }

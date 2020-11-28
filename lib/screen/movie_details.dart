@@ -6,7 +6,14 @@ class MovieDetails extends StatefulWidget {
   _MovieDetailsState createState() => _MovieDetailsState();
 }
 
+
+
 class _MovieDetailsState extends State<MovieDetails> {
+    int index_ico = 0 ;
+    var bookmarkico = [
+Icon(Icons.bookmark_border),
+Icon(Icons.bookmark),
+    ];
   @override
   Widget build(BuildContext context) {
                 final routes=ModalRoute.of(context).settings.arguments as Map<String,String>;
@@ -19,7 +26,21 @@ double height = MediaQuery.of(context).size.height - 20 ;
             title:Text(routes['movie']),
         ),
         body:Center(child: MovieCard(movie.image,movie.name,movie.description,height,width)) ,  
+    floatingActionButton: FloatingActionButton(
+      onPressed: () {
+          setState((){
+              if(index_ico == 0){
+index_ico =1;
 
+              }else{
+index_ico =0;
+
+              }
+          });
+      },
+      child: bookmarkico[index_ico],
+
+    ),
     );
   }
 }
