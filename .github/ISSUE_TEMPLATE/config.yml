@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/ismailbentabett/Movie-Info/security/advisories/new
+    about: Report security issues privately. Please do not open a public issue.
+  - name: Maintainer
+    url: https://github.com/ismailbentabett
+    about: Questions about the project or collaboration.

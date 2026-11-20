@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="Movie Info banner">
+  <title>Movie Info</title>
+  <defs>
+    <clipPath id="frame">
+      <rect width="1280" height="400" rx="24"/>
+    </clipPath>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E11D48" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#E11D48" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E11D48"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#FFFFFF"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.18" cy="0.5" r="0.35">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="400" fill="#0B0F19"/>
+    <rect width="1280" height="400" fill="url(#wash)"/>
+    <rect width="1280" height="400" fill="url(#dots)" opacity="0.06"/>
+    <rect width="1280" height="400" fill="url(#glow)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="399" rx="24" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <g transform="translate(96 72) scale(0.9765625)">
+    <rect width="256" height="256" rx="56" fill="url(#tile)"/>
+    <rect width="256" height="128" rx="56" fill="url(#shine)"/>
+    <rect x="56" y="64" width="144" height="128" rx="16" fill="none" stroke="#FFFFFF" stroke-width="14"/>
+    <rect x="70" y="80" width="14" height="14" rx="3" fill="#FFFFFF"/>
+    <rect x="70" y="121" width="14" height="14" rx="3" fill="#FFFFFF"/>
+    <rect x="70" y="162" width="14" height="14" rx="3" fill="#FFFFFF"/>
+    <rect x="172" y="80" width="14" height="14" rx="3" fill="#FFFFFF"/>
+    <rect x="172" y="121" width="14" height="14" rx="3" fill="#FFFFFF"/>
+    <rect x="172" y="162" width="14" height="14" rx="3" fill="#FFFFFF"/>
+    <path d="M114 104l36 24-36 24z" fill="#FFFFFF"/>
+  </g>
+  <text x="358" y="176" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="70" font-weight="800" fill="#FFFFFF" letter-spacing="-1.5">Movie Info</text>
+  <text x="360" y="230" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="400" fill="#A1A8B8">Browse films by genre, open details, bookmark favourites</text>
+  <g>
+    <rect x="360" y="276" width="107" height="40" rx="20" fill="#E11D48" fill-opacity="0.10" stroke="#E11D48" stroke-width="1"/>
+    <text x="414" y="302" text-anchor="middle" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#E5E7EB">Flutter</text>
+    <rect x="481" y="276" width="76" height="40" rx="20" fill="#E11D48" fill-opacity="0.10" stroke="#E11D48" stroke-width="1"/>
+    <text x="519" y="302" text-anchor="middle" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#E5E7EB">Dart</text>
+    <rect x="571" y="276" width="189" height="40" rx="20" fill="#E11D48" fill-opacity="0.10" stroke="#E11D48" stroke-width="1"/>
+    <text x="666" y="302" text-anchor="middle" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#E5E7EB">Material Design</text>
+    <rect x="774" y="276" width="158" height="40" rx="20" fill="#E11D48" fill-opacity="0.10" stroke="#E11D48" stroke-width="1"/>
+    <text x="853" y="302" text-anchor="middle" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#E5E7EB">Named routes</text>
+  </g>
+</svg>
