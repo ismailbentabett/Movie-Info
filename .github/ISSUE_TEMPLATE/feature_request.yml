@@ -1,0 +1,37 @@
+name: Feature request
+description: Suggest an idea or improvement for Movie Info.
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping shape Movie Info. Please describe the problem first, then the solution you have in mind.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem would this solve? Who is affected?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe the behaviour you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: Would you like to work on this?
+      options:
+        - "Yes, I can open a pull request"
+        - "Maybe, with some guidance"
+        - "No"
+    validations:
+      required: true
